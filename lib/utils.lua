@@ -24,6 +24,5 @@ end
 
 function t(fn, ...)
   hyper.triggered = true
-  -- hyper:exit()
   fn(...)
 end
